@@ -12,3 +12,9 @@ matrix:
       
         script:
           - ruby Ruby/gol.rb
+      - language: c 
+        LUA:
+          - lua5.4 
+      
+        script:
+          - lua Lua/GameOfLife.lua
