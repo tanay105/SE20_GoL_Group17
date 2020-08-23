@@ -3,18 +3,15 @@ matrix:
       - language: go
         go:
           - 1.x
-      
         script:
           - go build Golang/main.go
+      
       - language: ruby 
         rvm:
           - 2.5.0 
-      
         script:
           - ruby Ruby/gol.rb
-      - language: c 
-        LUA:
-          - lua5.4 
       
+      - language: lua 
         script:
           - lua Lua/GameOfLife.lua
