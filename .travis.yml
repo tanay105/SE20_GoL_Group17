@@ -1,14 +1,14 @@
 matrix:
     include:
-	- language: go
-	  go:
-	    - 1.x
-	
-	  script:
-	    - go build Golang/main.go
-	- language: ruby 
-	  rvm:
-	    - 2.5.0 
-	
-	  script:
-	    - ruby gol.rb
+      - language: go
+        go:
+          - 1.x
+      
+        script:
+          - go build Golang/main.go
+      - language: ruby 
+        rvm:
+          - 2.5.0 
+      
+        script:
+          - ruby gol.rb
