@@ -13,5 +13,7 @@ matrix:
           - ruby Ruby/gol.rb
       
       - language: lua 
+        before_install:
+	  - sudo apt-get install -y lua5.2
         script:
           - lua Lua/GameOfLife.lua
