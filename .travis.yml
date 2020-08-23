@@ -11,4 +11,4 @@ matrix:
           - 2.5.0 
       
         script:
-          - ruby gol.rb
+          - ruby Ruby/gol.rb
