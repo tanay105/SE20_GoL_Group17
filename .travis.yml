@@ -6,3 +6,9 @@ matrix:
 	
 	  script:
 	    - go build Golang/main.go
+	- language: ruby 
+	  rvm:
+	    - 2.5.0 
+	
+	  script:
+	    - ruby gol.rb
