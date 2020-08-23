@@ -1,6 +1,8 @@
-language: go
-go:
-  - 1.x
-
-script:
-  - go build Golang/main.go
+matrix:
+    include:
+	- language: go
+	  go:
+	    - 1.x
+	
+	  script:
+	    - go build Golang/main.go
