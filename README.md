@@ -1,7 +1,6 @@
 # SE20_GoL_Group17
 
 
-
 This repository is an implementation of game of life for HW2 and HW3 of Software Engineering Course in Fall 2020. 
 [![Build Status](https://travis-ci.com/srujana13/SE20_GoL_Group17.svg?branch=master)](https://travis-ci.com/srujana13/SE20_GoL_Group17)
 ![GitHub](https://img.shields.io/github/license/amolgautam25/se20_group17)
